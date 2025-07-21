@@ -5,6 +5,8 @@ public class MiniBankSystem {
 
     }
 
+
+
     public static void Menu(){
         System.out.println("Option 1: Create a new account");
         System.out.println("Option 2: Deposit money");
