@@ -3,7 +3,6 @@ public class BankAccount {
     String accountName;
     String accountNumber;
     double balance;
-    double amount;
 
 //constructor
     public BankAccount(String accountName,String accountNumber,double balance){
@@ -21,7 +20,7 @@ public class BankAccount {
         System.out.println("Current Balance: " + balance);
     }
 
-    public void Deposit(double amount){
+    public void deposit(double amount){
         if (amount > 0){
             balance += amount;
             System.out.println("Deposited: " + amount+ " New balance:" + balance);
@@ -30,7 +29,7 @@ public class BankAccount {
         }
 
     }
-    public void Withdraw (double amount){
+    public void withdraw (double amount){
         if (amount > 0 && amount <= balance){
             balance -=amount;
             System.out.println("Withdrew: " + amount+ " New balance:" + balance);
