@@ -6,10 +6,11 @@ public class MiniBankSystem {
         BankAccount acc2= new BankAccount("B", "002",100);
 
         acc1.showAccountInfo();
-        System.out.println();
-        acc2.showAccountInfo();
-
-
+        //System.out.println();
+        //acc2.showAccountInfo();
+        acc1.Withdraw(20);
+        acc1.Deposit(10);
+        acc1.Withdraw(100);
 
     }
 
