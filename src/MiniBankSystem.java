@@ -2,6 +2,14 @@
 public class MiniBankSystem {
 
     public static void main(String[] args) {
+        BankAccount acc1 = new BankAccount("A", "001",100);
+        BankAccount acc2= new BankAccount("B", "002",100);
+
+        acc1.showAccountInfo();
+        System.out.println();
+        acc2.showAccountInfo();
+
+
 
     }
 
